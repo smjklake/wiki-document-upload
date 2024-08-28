@@ -7,7 +7,7 @@
         "wiki-upload": "dist/index.js"
     },
     "scripts": {
-        "dev": "npm run build && node dist/index.js",
+        "start": "npm run build && node dist/index.js",
         "build": "npm run lint && npx tsc",
         "lint": "npx eslint .",
         "test": "echo \"Error: no test specified\" && exit 1"
